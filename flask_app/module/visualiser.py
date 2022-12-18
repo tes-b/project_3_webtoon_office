@@ -1,7 +1,8 @@
 import plotly
 import plotly.graph_objects as go
 import pandas as pd
-from flask_app.module.dbModule import Database
+from module.dbModule import Database
+# from flask_app.module.dbModule import Database
 
 class Visualiser:
     def __init__(self):

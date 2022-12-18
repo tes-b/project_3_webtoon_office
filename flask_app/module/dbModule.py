@@ -1,6 +1,7 @@
 import psycopg2
 from psycopg2.extras import execute_values
-from flask_app.module.dbId import dbId 
+from module.dbId import dbId 
+# from flask_app.module.dbId import dbId 
 # from dbId import dbId 
 
 TABLE_WEBTOONS = "webtoons"
